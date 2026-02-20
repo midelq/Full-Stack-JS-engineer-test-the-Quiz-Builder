@@ -112,6 +112,7 @@ After seeding the database (`npx prisma db seed`), a "General Knowledge Quiz" is
 - React Router (client-side routing)
 - React Hook Form + Zod (form handling & validation)
 - CSS Modules (component-scoped styling)
+- Mobile responsive design (media queries for ≤480px)
 
 **Code Quality:**
 - ESLint + Prettier (backend & frontend)
