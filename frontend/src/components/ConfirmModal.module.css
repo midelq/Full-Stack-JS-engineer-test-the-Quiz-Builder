@@ -1,0 +1,111 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.15s ease-out;
+}
+
+.modal {
+    background: #1e293b;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    animation: slideUp 0.2s ease-out;
+}
+
+.icon {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #e2e8f0;
+    margin: 0 0 8px;
+}
+
+.message {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    margin: 0 0 28px;
+    line-height: 1.5;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.cancelBtn,
+.deleteBtn {
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+}
+
+.cancelBtn {
+    background: rgba(255, 255, 255, 0.08);
+    color: #94a3b8;
+}
+
+.cancelBtn:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #e2e8f0;
+}
+
+.deleteBtn {
+    background: #ef4444;
+    color: #fff;
+}
+
+.deleteBtn:hover {
+    background: #dc2626;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.97);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@media (max-width: 480px) {
+    .modal {
+        padding: 24px;
+        margin: 0 16px;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+}
