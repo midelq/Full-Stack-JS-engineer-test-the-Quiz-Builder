@@ -1,0 +1,132 @@
+.page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.backLink {
+    display: inline-block;
+    color: #818cf8;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-bottom: 24px;
+    transition: color 0.2s;
+}
+
+.backLink:hover {
+    color: #a5b4fc;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e2e8f0;
+    margin: 0 0 8px;
+}
+
+.meta {
+    color: #64748b;
+    font-size: 0.85rem;
+    margin: 0 0 32px;
+}
+
+.questionsList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.question {
+    background: #16213e;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    padding: 20px 24px;
+}
+
+.questionHeader {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.questionNum {
+    color: #818cf8;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.questionText {
+    color: #e2e8f0;
+    font-size: 1rem;
+    font-weight: 500;
+    flex: 1;
+}
+
+.badge {
+    background: rgba(99, 102, 241, 0.15);
+    color: #818cf8;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 24px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #94a3b8;
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+
+.option.correct {
+    color: #34d399;
+    background: rgba(52, 211, 153, 0.08);
+}
+
+.radio,
+.check {
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+.answerBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    margin-left: 24px;
+    background: rgba(52, 211, 153, 0.08);
+    border-radius: 8px;
+}
+
+.answerLabel {
+    color: #64748b;
+    font-size: 0.8rem;
+}
+
+.answerValue {
+    color: #34d399;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.message {
+    text-align: center;
+    padding: 60px 20px;
+    color: #94a3b8;
+    font-size: 1rem;
+}
