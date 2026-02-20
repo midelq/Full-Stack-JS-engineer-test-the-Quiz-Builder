@@ -166,3 +166,24 @@
     font-size: 0.75rem;
     margin-top: 4px;
 }
+
+@media (max-width: 480px) {
+    .question {
+        padding: 16px;
+    }
+
+    .input,
+    .select {
+        font-size: 0.85rem;
+        padding: 8px 12px;
+    }
+
+    .optionRow {
+        gap: 6px;
+    }
+
+    .optionInput {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+}

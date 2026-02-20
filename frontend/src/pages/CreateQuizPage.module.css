@@ -10,3 +10,14 @@
     color: #e2e8f0;
     margin: 0 0 32px;
 }
+
+@media (max-width: 480px) {
+    .page {
+        padding: 24px 12px;
+    }
+
+    .heading {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+}

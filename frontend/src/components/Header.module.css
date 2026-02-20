@@ -68,3 +68,18 @@
   background: #4f46e5;
   color: #fff;
 }
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  .logo {
+    font-size: 1.05rem;
+  }
+
+  .link {
+    padding: 6px 10px;
+    font-size: 0.78rem;
+  }
+}

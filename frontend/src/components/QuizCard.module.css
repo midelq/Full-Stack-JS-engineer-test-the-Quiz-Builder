@@ -70,3 +70,18 @@
     background: rgba(239, 68, 68, 0.15);
     color: #ef4444;
 }
+
+@media (max-width: 480px) {
+    .card {
+        padding: 14px 16px;
+    }
+
+    .title {
+        font-size: 0.95rem;
+    }
+
+    .meta {
+        gap: 8px;
+        font-size: 0.75rem;
+    }
+}

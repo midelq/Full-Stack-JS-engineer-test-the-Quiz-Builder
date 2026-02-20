@@ -130,3 +130,34 @@
     color: #94a3b8;
     font-size: 1rem;
 }
+
+@media (max-width: 480px) {
+    .page {
+        padding: 24px 12px;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .question {
+        padding: 14px 16px;
+    }
+
+    .questionHeader {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .questionText {
+        font-size: 0.9rem;
+    }
+
+    .options {
+        padding-left: 12px;
+    }
+
+    .answerBox {
+        margin-left: 12px;
+    }
+}
